@@ -107,9 +107,6 @@ Child Selector
 
 ------------------------------------------------------------------------
 
-Attributr selector
-Pseudo class
-
 
 
 
