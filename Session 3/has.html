@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .card:has(P){
+            border: 20px solid red;
+        }
+        :is(h1,h2){
+            color: aqua;
+        }
+        :where(section p){
+            font-weight: bold;
+        }
+        p:empty{
+            content: "Hello World";
+            font-weight: 50px;
+            background-color: aqua;
+         
+        }
+    </style>
+</head>
+<body>
+     <div class="card">
+        <pre>Error messege</pre>
+    </div>
+    <div class="card">
+        <p>Success</p>
+    </div>
+
+        <section>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </section>
+    <h1>Main Title</h1>
+    <h2>Sub Title</h2>
+    <h3>Section Title</h3>
+    <h4>Body title</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    
+    <p></p>
+    <p>Content available</p>
+</body>
+</html>
