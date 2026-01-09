@@ -1,0 +1,61 @@
+Git GitHub
+
+Prerequisite	need to be an gmail account
+Is a version control
+Git Local machine run environment
+GitHub Cloud platform
+
+using  Drag and drop we can store code/applications and track
+How to create GitHub account
+link		https://github.com/ 
+
+after sign up they asked username
+	username will be unique
+	<omkarpatil-coder>
+	<password>
+
+What is repository
+	repository is project or collection of codes
+
+----------------------------------------------------------------
+Git 
+Git is a brain
+Git is used for local branching with connected to GitHub
+
+for checking git installed	git --version
+Only first time new machines	
+1.	git config --global user.name "<username>"
+2.	git config --global user.email "<email addres you logged in account>" 
+3.	git config --global user.password "<password>"
+for checking 
+	git config --list
+
+for new repo first time using cmd
+
+echo "# AngularAssignments" >> README.md	//New file creating command
+git init					//git initialize
+git add README.md				//
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/OMKAR9395/AngularAssignments.git
+git push -u origin main
+
+
+
+git add <file name>		//for locally staging area
+git add .			// for adding all files
+git commit -m "first commit"	//for commenting code or changes
+git branch -M main		//for every repository first time
+git remote add origin https://github.com/OMKAR9395/AngularAssignments.git	
+//Repository name link
+git push -u origin main	//local to server pushing changes or files
+
+git status // for checking local to server files
+
+
+
+
+
+
+
+
