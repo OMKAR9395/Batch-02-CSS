@@ -52,6 +52,67 @@ git push -u origin main	//local to server pushing changes or files
 
 git status // for checking local to server files
 
+------------------------------------------------------------------------------------
+Branching
+	Manager 
+	Development 	Testing		Live
+
+			Manager
+Team Leader
+
+
+
+
+git clone <repo url>		first
+git checkout -b Prachi		second
+git add .
+git commit -m "Prachi branch"
+git push origin prachi
+
+
+as a manager
+	
+Get locally branch
+git fetch
+git switch main to <coolleague>
+
+git pull origin main
+
+evry time before code edit or push we enter this command
+
+merge branch in to main branch
+
+git merge <branch name>
+
+git add .
+git commit -m <commit>
+git push -u origin main
+
+
+
+
+-------------Important------
+Conflict error
+meaning	same file two sides have change and pushed
+
+
+
+// git -d <branch name>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
