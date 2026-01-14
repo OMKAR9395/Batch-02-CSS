@@ -1,0 +1,80 @@
+Module 12: CSS Box Model ( Important)
+Content, padding, border, margin
+
+Content is inside of element like text/image/data
+Height and width are applied to actual content
+
+
+Padding	
+Padding is middleware of the content and border space
+Properties
+	padding-top
+	padding-right
+	padding-bottom
+	padding-left
+Padding + content =	border
+top bottom Left Right
+When Property padding = "<value>";	all sides applying
+
+When Single value applying all aroung
+when applying two values top-bottom left-right
+when applying three values top left-right bottom
+when applying four values top right bottom left
+
+border
+Border = content + padding
+Properties
+	border-width
+	border-style
+	border-color
+shorthand	border:2px solid red;
+
+Border style	solid,dashed,dotted,double
+
+Margin
+	Margin is outside space of element
+	There is used for two elements spacing
+	
+	Margin-top
+	Margin-right
+	Margin-bottom
+	Margin-left
+Same as it is shorthand padding
+
+box-sizing
+	box-sizing bydefault content box
+	width = only content
+	Padding + border extra will be added
+
+border box property
+	there will be content + padding + border will be included
+
+Border styles
+
+Margin collapse 
+
+Margin collapse is merge with two elements
+vertical(top/bottom)
+
+space = 30px not 50 px
+
+left right
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
