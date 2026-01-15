@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table{
+            display: table;
+            width: 100%;
+            border: 2px solid black;
+            margin-top: 20px;
+        }
+        .row{
+            display: table-row;
+        }
+        .col{
+            display: table-cell;
+            border: 1px solid rgb(177, 177, 177);
+            padding: 10px;
+            text-align: center;
+        }
+        .header{
+            font-weight: bold;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h2>Display : Table Example </h2>
+   <div class="table">
+    <div class="row header">
+        <div class="col">ID</div>
+        <div class="col">Name</div>
+        <div class="col">City</div>
+    </div>
+    <div class="row">
+        <div class="col">1</div>
+        <div class="col">Omkar</div>
+        <div class="col">Pune</div>
+    </div>
+    <div class="row">
+        <div class="col">2</div>
+        <div class="col">Amit</div>
+        <div class="col">Karad</div>
+    </div>
+   </div>
+   <div style="background-color: aqua; visibility: hidden;">Visible</div>
+   <div style="background-color: aqua;">Visible</div>
+</body>
+</html>
