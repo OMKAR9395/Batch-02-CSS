@@ -70,11 +70,6 @@ what is z index
 	absolute we can apply also
 	cannot work in static
 	z-index:<understanding overlaps use numbers <0 to 99999>>
-
-
-
-
-
  display types
  visibility & opacity
  overflow
