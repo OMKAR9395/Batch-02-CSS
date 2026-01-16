@@ -1,0 +1,83 @@
+Module 13: Display & Position
+Display:
+	When we apply display it works how to look and how to behave
+(line,block,hidde,flex...)
+display:block	=>	It uses full width , starting at new line,applying properties (width,height,padding,margin)
+
+Bydefault Block elements	div,p,headings,section,article
+
+display:inline	=>
+	It uses space only content
+	and it cannot aqpply width and height 
+	and also margis applying one condition only right & left
+
+display:inline-block	=>
+	
+	It uses space only content,
+	applying properties (width,height,padding,margin)
+
+display:none
+
+	it works hidden element tag
+	and also space
+
+--------------Impotant-----------------------
+display:flex
+		Making Element flex container
+		And it's used for parent child relation
+		And it used row and column layout
+		at a time only one used row or column
+
+
+It used for navbars,layout
+
+gap
+
+
+display:grid
+	its working for row and column controls
+	2d layout
+
+display:table
+	it works tables
+	behaviour row and columns
+	
+visibility:visible/hidden;
+
+
+Opacity 
+	it used for like transparent
+	it used between 0 to 1
+
+overflow:visible(default)
+	 overflow: visible;
+         overflow: hidden;
+         overflow: scroll;
+         overflow: auto;
+posion:static
+	it's used for normal document
+	cannot apply L,R,B,T
+
+	relative
+	it works move elemnt from original position
+
+	parent relative and child used absolute for moving child elements
+	
+	fixed
+	
+what is z index
+	Without position relative cannot work
+	absolute we can apply also
+	cannot work in static
+	z-index:<understanding overlaps use numbers <0 to 99999>>
+
+
+
+
+
+ display types
+ visibility & opacity
+ overflow
+ posiƟon:
+ staƟc, relaƟve, absolute, fixed, sƟcky
+ z-index 
