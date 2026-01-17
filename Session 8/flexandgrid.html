@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(58, 53, 53);
+            color: white;
+            padding: 10px;
+        }
+        .menu{
+            display: flex;
+            gap: 20px;
+        }
+
+        .page{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: 60px 1fr 60px;
+            grid-template-areas: 
+            "header header"
+            "sidebar content"
+            "footer footer";
+            height: 100vh;
+        }
+        .header{
+            grid-area: header;
+            background-color: #aaf;
+
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: aquamarine;
+        }
+        .content{
+            grid-area: content;
+            background-color: chartreuse;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: cadetblue;
+        }
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+            gap: 20px;
+        }
+        .card{
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar  -->
+    <div class="nav">
+        <div>Logo</div>
+        <div class="menu">
+            <div>Home </div>
+        <div>About</div>
+        <div>Contact</div>
+        </div>
+    </div>
+    <!-- main  -->
+    <!-- <div class="page">
+    <div class="header">Header</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="content">Content</div>
+    <div class="footer">Footer</div>
+    </div> -->
+    
+
+    <!-- card -->
+
+    <div class="cards">
+        <div class="card">Card1</div>
+        <div class="card">Card2</div>
+        <div class="card">Card3</div>
+        <div class="card">Card4</div>
+        <div class="card">Card5</div>
+    </div>
+</body>
+</html>

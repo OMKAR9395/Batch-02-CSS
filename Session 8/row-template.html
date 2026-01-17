@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns:1fr 1fr 2fr 1fr; */
+            grid-template-columns:1fr 1fr 2fr;
+            /* background-color: cadetblue; */
+        }
+        .item{
+            background-color: coral;
+            padding: 20px;
+            border: 1px dotted black;
+        }
+        .parent{
+            display: grid;
+           grid-template-columns: 1fr 1fr 100px;
+           grid-template-rows: 400px 150px 10px;
+           /* gap: 20px; */
+           row-gap: 10px;
+           column-gap: 40px;
+
+            background-color: aqua;
+        }
+        .child{
+            padding: 30px;
+            border: 1px double navajowhite;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Box 1</div>
+        <div class="item">Box 2</div>
+        <div class="item">Box 3</div>
+        <div class="item">Box 4</div>
+        <div class="item">Box 5</div>
+        <div class="item">Box 6</div>
+        <div class="item">Box 7</div>
+        <div class="item">Box 8</div>
+       
+    </div>
+     <div class="parent">
+        <div class="child">Box 1</div>
+        <div class="child">Box 2</div>
+        <div class="child">Box 3</div>
+        <div class="child">Box 4</div>
+        <div class="child">Box 5</div>
+        <div class="child">Box 6</div>
+        <div class="child">Box 7</div>
+        <div class="child">Box 8</div>
+       
+    </div>
+</body>
+</html>
