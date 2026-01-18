@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive design</title>
+    <style>
+        /* Base style whole website  */
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(238, 235, 235);
+        }
+        .header{
+            background-color: rgb(37, 151, 151);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .nav{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(65, 105, 138);
+           font-weight: bold;
+        }
+        .nav a{
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .nav a:hover{
+            background-color:  rgb(36, 96, 145);
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            padding: 15px;
+        }
+        .card{
+            background-color: white;
+            height: auto;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .card img{
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .footer{
+            background-color: rgb(176, 185, 193);
+            color: white;
+            text-align: center;
+            padding: 10px;        
+        }
+        @media (min-width:768px){
+           
+            .nav{
+                flex-direction: row;
+                justify-content:flex-end;
+                font-size: 30px;
+            }
+            .nav a{
+                flex: 1;
+            }
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media(min-width:1024px) and (max-width:1400px){
+          
+            .container{
+                max-width: 1100px;
+                margin: auto;
+                grid-template-columns: repeat(3,1fr);
+
+            }
+            .header{
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Responsive Website</h2>
+    </div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="" alt="">
+            <h3>Web Development</h3>
+            <p>Learn HTML,CSS,Flexbox And Grid</p>
+        </div>
+         <div class="card">
+            <img src="" alt="">
+            <h3>Responsive Design</h3>
+            <p>Build Mobile Friendly Website</p>
+        </div>
+         <div class="card">
+            <img src="" alt="">
+            <h3>javascript</h3>
+            <p>Make Website Interactive</p>
+        </div>
+    </div>
+    <div class="footer">
+        @2026 All right reserved FORK INFOSYSTEMS
+    </div>
+</body>
+</html>

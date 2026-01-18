@@ -1,0 +1,32 @@
+Responsive design
+    Write once code and display every devices
+    desktop/laptop,tablet,mobile
+
+    Mostly users use mobile devices
+Mostly used for body tag design
+    margin:0;
+    font-family:arial sans serif
+    background color: off-white
+
+    img
+    width 100% ,height auto 
+
+    Mobile view approach
+
+    media querry
+    @media(size){
+        //code css
+    }
+    min-width:<size>{
+
+    }
+
+    @media(condition){
+        css body
+    }
+
+    When use table in media querry 
+    orientation:landscape
+
+    when using system theme
+    prefers-color-scheme: dark

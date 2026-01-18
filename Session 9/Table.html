@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table-wrapper{
+            overflow-x: auto;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        @media(orientation: landscape){
+            body{
+                background-color: antiquewhite;
+            }
+        }
+        @media(prefers-color-scheme:light){
+           body{
+               background-color: rgb(165, 179, 179);
+           }
+       }
+        @media(prefers-color-scheme: dark){
+            body{
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="table-wrapper">
+        <table>
+            <tr>
+                <th>Name </th>
+                <th>Course</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>Omkar</td>
+                <td>BCS</td>
+                <td>6 Months</td>
+            </tr>
+            <tr>
+                <td>Chandu</td>
+                <td>MCS</td>
+                <td>1 Year</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
