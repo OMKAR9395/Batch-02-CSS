@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: antiquewhite;
+            color: rgb(0, 99, 66);
+            animation: omkar 1s infinite;
+        }
+
+        @keyframes omkar{
+            from{
+                transform: scale(1.5);
+                background-color: rgb(134, 114, 88);
+            }
+            to{
+                 transform: scale(2);
+                background-color: rgb(64, 43, 16);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">Box</div>
+</body>
+</html>

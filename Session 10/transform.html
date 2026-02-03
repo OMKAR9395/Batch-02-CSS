@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f5f6;
+            padding: 40px;
+        }
+        .box{
+            width: 120px;
+            height: 120px;
+            background-color: rgb(57, 90, 90);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            transition: transform 1.5s ease;
+            
+        }
+        .box:hover{
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <h2>Css Animation Module</h2>
+    <div class="box">Box</div>
+</body>
+</html>

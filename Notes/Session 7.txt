@@ -1,0 +1,87 @@
+Module 14: Flexbox Layout (🔥 Must Have)
+Flex container & items
+flex-direction
+justify-content
+align-items
+flex-wrap
+Real-world layouts 
+
+display:flex;
+Flexbox(flexible box layout)
+and it's css layout system
+element working in row and column
+
+parent	=> flex container
+child	=> flex items
+
+use this properties on parent
+
+flex-direction:row;	Bydefault
+flex-direction:row-reverse;
+flex-direction:column;
+flex-direction:column-rverse;
+
+Main axis
+justify content	parent property
+
+child properties =>
+
+flex-start
+flex-end
+space-between
+space-around
+space-evenly
+
+align-items parent property
+child properties =>
+
+stretch,center,flex-start,flex-end
+Note	:	It's working on yaxis or vertical alignment
+
+flex-wrap	parent property
+child properties =>
+
+no-wrap,wrap,wrap-reverse
+
+items will be new line or not
+
+gap
+
+flex grow
+flex-shrink
+prent declare whose child will be shrink
+flex-basis	working like width
+
+homework=>
+flex shorthand
+align-self
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
