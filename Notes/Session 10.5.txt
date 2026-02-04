@@ -1,0 +1,26 @@
+Module 18: IntroducƟon to Bootstrap
+
+bootstrap is framework used for responsive ui with less css
+which is developed by twitter
+
+latest version b5
+
+its using 2 ways
+using cdn(content delivery network)
+using downloaded file(using download to npm)
+
+using bootstrap everythging is predefined class
+
+super parent	container
+parent			row
+child			col
+
+its devided into 12 columns inside of row 
+
+
+
+
+ What is Bootstrap?
+ Bootstrap 5 overview
+ CDN vs local setup
+ Mobile-first concept 

@@ -1,0 +1,64 @@
+Module 17: CSS Animations
+
+
+ Transitions
+
+when apply we need
+	transition:all 0.5s ease
+	translate 
+	translate is moving elemnt one to another place
+	
+	scale
+	scale is element size small or big
+	
+	rotate 
+	rotate is rotating element 
+	
+	skew
+	skew is like 30degree or 50 degree transforming element in degree values
+	
+
+ Animations
+
+What is animations
+
+withour user action performed things
+
+it works on page loadings or etc
+it works continuously
+
+
+
+properties
+animation-name
+animation-duration
+animation-timing-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-full-mode
+
+
+without keyframes cannot works animation we need keyframes
+syntax
+
+
+  @keyframes pulse{
+            from{
+			start
+            }
+            to{
+                end
+            }
+        }
+@keyframes 
+
+percentage based keyframes
+
+button,cards
+
+
+assignments program
+
+button hover,loader,
+cards background shadows
