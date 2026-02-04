@@ -6,7 +6,7 @@ Module 17: CSS Animations
 when apply we need
 	transition:all 0.5s ease
 	translate 
-	translate is moving elemnt one to another place
+ oving elemnt one to another place
 	
 	scale
 	scale is element size small or big

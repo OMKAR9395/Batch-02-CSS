@@ -1,0 +1,60 @@
+Bootstrap is css framework
+
+Its used for responsive websited
+mobile first approach
+
+There are two ways for using bootstrap 
+1. CDN(Content delivery network)
+2.Using Zip files or packges downlodined
+3. Using Node downlod or create project
+
+//////////// >Select Default terminal
+
+npm init -y
+    package.json
+
+without package we download locally bootstrap 
+
+npm install bootstrap
+
+Module 19: Bootstrap Grid System ( Core)
+ Containers
+Container is a wrapper of Content
+
+Class
+    container
+    container-fluid
+    container-sm/md/lg/xl               Breakpoints
+Starting page or element requird container 
+
+
+ Rows & columns
+
+After using container we apply rows 
+after applying rows we apply columns 
+
+column is devided into 12 columns
+every row = 12col
+
+ Breakpoints
+
+
+What is Breakpoints
+
+breakpoint is used responsive every device 
+Default         mobile
+
+Breakpoint	Class infix	Dimensions
+Extra small	        None	<576px
+Small	            sm	    ≥576px
+Medium	            md	    ≥768px          >   767
+Large	            lg	    ≥992p
+Extra               large	xl	≥1200px
+Extra extra large	xxl	    ≥1400px
+
+ Responsive layouts 
+
+Alignment
+
+m for margin
+p for padding
