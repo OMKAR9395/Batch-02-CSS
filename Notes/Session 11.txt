@@ -36,7 +36,7 @@ after applying rows we apply columns
 column is devided into 12 columns
 every row = 12col
 
- Breakpoints
+	Breakpoints
 
 
 What is Breakpoints

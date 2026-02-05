@@ -1,0 +1,77 @@
+Module 20: Bootstrap utilities
+
+What is bootstrap utilities?
+bootstrap utilities are ready-made-helper classes
+
+Spacing
+color
+alignment
+Display
+Position
+flex behaviour
+
+one class = one job
+
+marging m (outside space)
+padding p (inside space)
+
+syntax
+
+{property}-{side}-{breakpoint}-{size}
+
+sides   
+t   top
+b   bottom
+s   start(left)
+e   end(right)
+x   left & right
+y   top & bottom
+ 
+
+blank all sides
+
+size
+0 to 5
+bydefault auto
+
+ Spacing utilities
+
+ Text & color utilities
+
+ Text alignments
+ text-{property}
+
+ trnsform text 
+ uppercase lowercase
+
+ color
+
+ primary,secondary,danger......
+
+
+ Display & flex utilities
+
+ Display properties
+
+block,inline,node
+
+ Position utilities
+
+
+
+ Module 21: Bootstrap Components – Basic
+ BuƩons
+ Images
+ Tables
+ Cards
+
+basic strusture
+parent  Card
+child card-body
+grand child actual content
+
+
+ Alerts
+ Badges 
+
+btn 
